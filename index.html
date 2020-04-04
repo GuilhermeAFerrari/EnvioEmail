@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  	<head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    	<meta name="description" content="">
+    	<meta name="author" content="">
+
+    	<!--Inserção de icone da guia
+    	<link rel="icon" href="../../../../favicon.ico">
+    	-->
+
+    	<title>Suporte Tecnico - TI</title>
+
+    		<!-- Bootstrap core CSS -->
+    		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+    		<!-- Custom styles for this template -->
+    		<link href="template/floating-labels.css" rel="stylesheet">
+  	</head>
+
+  	<body>
+
+    		<form class="form-signin" action="envioEmail.php" method="post">
+      			<div class="text-center mb-4">
+       				<img class="mb-4" src="img.png" alt="" width="180" height="72">
+        			<h1 class="h3 mb-3 font-weight-normal">Suporte --Nome da Empresa--</h1>
+        			<p>O envio dessas informações abrirá para o departamento de TI um chamado de suporte técnico</p>
+      			</div>
+
+  			<div class="form-group">
+    				<label for="nome">Seu Nome</label>
+   				 <input type="nome" class="form-control" id="nome" name="nome" aria-describedby="nome" placeholder="Seu Nome" required>
+    				<!--
+    				Utilizado para inserir uma pequena linha abaixo do campo de inserção
+    				<small id="nome" class="form-text text-muted">We'll never share your email with anyone else.'</small>
+    				-->
+  			</div>
+
+  			<div class="form-group">
+    				<label for="nome">Seu Departamento</label>
+   		 		<input type="nome" class="form-control" id="departamento" name="departamento" aria-describedby="departamento" placeholder="Seu Departamento" required>
+    				<!--
+    				Utilizado para inserir uma pequena linha abaixo do campo de inserção
+    				<small id="nome" class="form-text text-muted">We'll never share your email with anyone else.'</small>
+    				-->
+  			</div>
+  	
+  			<div class="form-group">
+    				<label for="assunto">Descreva o Assunto</label>
+    				<textarea class="form-control" id="assunto" name="assunto" rows="3" required></textarea>
+    				<small id="assunto" class="form-text text-muted">Descreva o Assunto com Detalhes.</small>
+  			</div>
+
+			<div class="form-group">
+	
+        			<button class="btn btn-lg btn-primary btn-block" type="submit" name="BTEnvia" value="Enviar">Enviar ao TI</button>
+        
+      			</div>
+      		</form>
+  	</body>
+</html>
